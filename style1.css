@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#5b5757;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #bd4848;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+    height:150vh;
+    width:150px;
+}
+
+nav ul{
+    float:right;
+    margin-right:20px ;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding:7px 13px;
+    border-radius: 33px;
+    text-transform: uppercase;
+}
+a.tat,a:hover{
+    background-color: #1b9bff;
+    transition:0.5s;
+
+}
+
+
+a.active{
+    background-color: aquamarine;
+}
+a:hover{
+    background-color: rgb(233, 202, 228);
+}
+
+.abc{
+    text-decoration-color: aqua;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+   
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    padding: 2em;
+}
+
+input, button {
+    margin-bottom: 1em;
+}
+
+footer {
+    
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 300%;
+    bottom: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .card-container {
+    display: flex;
+    overflow-x:scroll; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory;
+  }
+
+  .card {
+    flex: 0 0 800px;
+    margin-right: 100%;
+    margin-left:100%;
+    padding: 20px;
+    
+    background-color: #f0f0f0;
+    
+    scroll-snap-align: start;
+  }
+  .reg{
+    margin-top: 20%;
+  }
+ 
+
+

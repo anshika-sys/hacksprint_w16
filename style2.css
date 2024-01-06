@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /*background-color: rgb(74, 71, 71);
+    color:white;*/
+}
+
+
+.border{
+    border:2px solid whitesmoke;
+    
+
+}
+.flex{
+    display:flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.left{
+    width:25vw;
+    padding:10px;
+}
+.right{
+    width:75vw;
+}
+.home{
+    padding: 10px;
+
+}
+.home ul li{
+     display:flex;
+     gap:8px;
+      width:15px;
+      padding-top:14px;
+}
+.bg-black{
+    background-color: black;
+    color:white;
+}
+.abc{
+    color:white;
+}
+.library{
+    color:whitesmoke;
+    font-size:20px;
+    font-weight:bold;
+}
+.bt{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius:30% ;
+
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    gap:4px;
+    
+}
+.header > *{
+    padding: 4px;
+    background-color: grey;
+}
+.right{
+    margin:16px 0;
+
+}
+.dash{
+    padding: 16px;
+}
+.dash.card{
+    width:250px;
+}
+
+.select {
+    font-weight: light;
+    font-size:15px;
+}
+.menu{
+    font-weight: light;
+    font-size:15px;
+}
+.dropdown{
+    min-width:15em;
+    position:relative;
+    margin-top:20px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.card{
+    border:2px solid white;
+    border-radius:20%;
+    padding:20px 0;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.bt:hover{
+    cursor:pointer;
+}
